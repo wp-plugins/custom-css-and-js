@@ -23,16 +23,16 @@ Custom CSS and JavaScript allows you to add custom internal and external CSS and
 To use the plugin, add any combination of the following custom fields to your post.
 
 **custom_css**
-Add an external stylesheet with the key as the src.
+Add an external stylesheet by adding a custom field with the name **custom_css**. The value of the field should be the path to your css file.
 
 **cusrom_css_code**
-Add an internal stylesheet with the key as the stylesheet definition. (Do not include the style tags.)
+Add an internal stylesheet by adding a custom field with the name **custom_css_code**. Include your CSS code as the value. (Do not include the style tags.)
 
 **custom_js**
-Add an external JavaScript with the key as the file location.
+Add an external JavaScript by adding a custom field with the name **custom_js**. The value of the field should be the path to your script.
 
 **custom_js_code**
-Add an internal JavaScript with the key as the script. (Do not include the script tags.)
+Add an internal JavaScript by adding a custom field with the name **custom_js_code**. Include your JavaScript code as the value. (Do not include the script tags.)
 
 
 == Custom Fields Order ==
